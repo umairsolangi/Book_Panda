@@ -1,0 +1,164 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #222;
+}
+body{
+    margin: 0;
+}
+header a{
+    background-color: rgba(255, 255, 255, 0.77);
+    border-radius: 10px;
+    
+}
+header img{
+    background-color: rgba(255, 255, 255, 0.77);
+    margin: 5px;
+}
+main{
+    background-color: #e9e9e9;
+    display: flex;
+    justify-content: center;
+
+}
+
+article{
+    background-color: white;
+    width: 50em;
+}
+.stars i{
+    color: gold;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img#logo{
+    height: 60px;
+}
+nav li{
+    display: inline-block;
+    height: 100%;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+header ul  {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+#price-detail{
+    display: flex;
+}
+#price-detail img{
+    height: 400px;
+}
+#book-heading{
+    margin-left: 15px;
+}
+#book-heading h3{
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+}
+#book-heading p{
+    margin: 0 0 15px 0;
+   
+}
+
+#price-decription, #product-detail{
+
+    border-width: 2px 0 2px 0;
+    border-style: solid;
+    color: #dddddd;
+    padding-top: 16px;
+    margin-left: 10px;
+} 
+#product-decription{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+#product-detail ul{
+padding: 0;
+}
+#product-detail li{
+    margin: 10px;
+}
+#product-detail h3{
+    margin: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.stars{
+    display: inline-block;
+}
+#author-detail{
+ margin-left: 10px;
+}
+#author-detail h3{
+    font-weight: normal;
+}
+#author-detail p{
+    margin-left: 5px;
+}
+#product-decription a{
+    color: blue;
+}
+
+.stars{
+    margin-bottom: 20px;
+}
+.price{
+    display: flex;
+
+}
+.price h5{
+    margin-left: 15px;
+}
+.price :nth-child(3){
+    margin-top: 40px;
+    margin-left: -30px;
+    color: #f2849e;
+    font-size: 20px;
+}
+.price :nth-child(4){
+    margin-top: 60px;
+    margin-left: -57px;
+    color: #f2849e;
+}
+button{
+    background-color: #f2849e;
+    border: none;
+    padding: 0.7em 7em;
+    color: white;
+    margin-bottom: 10px;
+}
+button i{
+    color: white;
+    padding-right: 5px;
+}
+
+   
+
+
+
+@media (max-width:600px){
+    #price-detail{
+        display:flex;
+        flex-direction: column;
+    }
+}
